@@ -18,11 +18,11 @@ name = "Service"
 url = "#service"
 weight = 3
 [[menu.main]]
-name = "Are you a facility?"
+name = "For Facility"
 url = "#portfolio"
 weight = 4
 [[menu.main]]
-name = "Are you a medical staff?"
+name = "For Medical Staff"
 url = "#resume"
 weight = 5
 [[menu.main]]
@@ -69,8 +69,8 @@ phone = "+1 (917) 957-2107"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
-latitude = "40.842950"
-longitude = "-73.936910"
+latitude = "23.7783741"
+longitude = "90.3746808"
 pinImage = "images/pin.png"
 
 # Social icons
