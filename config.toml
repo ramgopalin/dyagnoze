@@ -1,0 +1,91 @@
+baseURL = "https://ramgopalin.github.io/dyagnoze/"
+languageCode = "en-us"
+paginate = 6
+theme = "portio"
+title = "Dyagnoze"
+# Main Menu
+[[menu.main]]
+name = "Home"
+url = "#home"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "#about"
+weight = 2
+[[menu.main]]
+name = "Service"
+url = "#service"
+weight = 3
+[[menu.main]]
+name = "Are you a facility?"
+url = "#portfolio"
+weight = 4
+[[menu.main]]
+name = "Are you a medical staff?"
+url = "#resume"
+weight = 5
+[[menu.main]]
+name = "Blog"
+url = "#blog"
+weight = 6
+[[menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 7
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "About me"
+url = "about"
+weight = 1
+[[menu.sitemap]]
+name = "Frequently Ask Question"
+url = "#"
+weight = 2
+[[menu.sitemap]]
+name = "Privacy & Policy"
+url = "#"
+weight = 3
+[[menu.sitemap]]
+name = "Latest Article"
+url = "#"
+weight = 4
+
+[params]
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "All right reserved copyright © Dyagnoze 2020"
+footerLogo = "images/contact/widget-logo.png"
+formspreeURL = "YOUR FORMSPREE URL"
+googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+logo = "images/site-navigation/logo.png"
+
+[params.address]
+address = "Brooklyn, New York, NY"
+email = "hello@dyagnoze.com"
+openingHours = "Open from 10am to 6pm"
+phone = "+1 (917) 957-2107"
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "40.842950"
+longitude = "-73.936910"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/dyagnoze"
+weight = 1
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/dyagnoze"
+weight = 2
+[[params.social]]
+icon = "fa-pinterest-square"
+url = "https://www.pinterest.com/dyagnoze"
+weight = 3
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/dyagnoze"
+weight = 4
