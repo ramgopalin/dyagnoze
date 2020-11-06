@@ -2,6 +2,7 @@ baseURL = "https://ramgopalin.github.io/dyagnoze/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
+publishDir = "docs"
 title = "Dyagnoze"
 # Main Menu
 [[menu.main]]
